@@ -67,7 +67,7 @@ body{
 
 .todo-list-header {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 0.5fr 1fr; /* sütun genişlikleri */
+  grid-template-columns: 2fr 1fr 1fr 0.5fr 1fr; 
   gap: 10px;
   font-weight: bold;
   padding: 10px;
@@ -116,12 +116,11 @@ body{
 
 
 .todo-table-container {
-  max-height: 300px; /* istediğin yüksekliği verebilirsin */
+  max-height: 300px; 
   overflow-y: auto;
   margin-top: 20px;
 }
 
-/* Başlığı sabitle */
 .todo-table thead th {
   position: sticky;
   top: 0;
